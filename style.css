@@ -6,6 +6,7 @@
 body {
     font-family: sans-serif;
     font-size: 18px;
+    line-height: 1.4;
     background: linear-gradient(to top left, #f34804, #dfa507);
 }
 
@@ -89,20 +90,52 @@ button:hover {
 }
 
 .text {
-    padding: 15px;
+    padding: 10px;
+    padding-left: 26px;
 }
 
 .footer {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to bottom right, #f34804, #dfa507);
     border-top: 5px solid orangered;
-    height: 50px;
+    height: 60px;
     margin-top: 15px;
-    padding: 20px;
+    padding: 30px;
     font-size: 15px;
+}
+
+.footer h5 {
     text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    color: white;
+}
+
+.github {
+    display: flex;
+}
+
+.github-icon {
+    width: 35px;
+    margin-left: 20px;
+    margin-right: 5px;
+    padding-bottom: 6px;
+}
+
+.github-icon-text {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 19px;
+    margin-top: 5px;
 }
 
 
