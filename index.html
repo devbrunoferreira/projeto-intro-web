@@ -22,24 +22,24 @@
 
     <main>
         <section class="input">
-            <input type="text" name="search" id="search" placeholder="Pesquise aqui...">
-            <button>🔍</button>
+            <input type="text" name="search" id="search" placeholder="Pesquise aqui..." value="">
+            <button onclick="buscador()" class="button">🔍</button>
         </section>
-        <section class="content">
-                <figure class="programming-language"> <!-- #1 -->
-                    <img class="image" src="img/01-python.jpg" alt="Logo do Python">
-                    <section class="text">
-                        <ul>
-                            <li><p><strong> Nome:</strong> <a href="https://pt.wikipedia.org/wiki/Python">Python</a></p></li>
-                            <li><p><strong> Indicado para:</strong> Iniciantes</p></li>
-                            <li><p><strong> Dificuldade:</strong> Fácil</p></li>
-                            <li><p><strong> Fácil de aprender:</strong> Sim</p></li>
-                            <li><p><strong> Usos:</strong> Desenvolvimento web back-end, Aplicações Desktop, Ciência de Dados, Automação, Machine Learning. </p></li>
-                            <li><p><strong> Média salarial:</strong> R$ 5.469</p></li>
-                        </ul>
-                    </section>
-                </figure>
-                <figure class="programming-language"> <!-- #2 -->
+        <section class="content" id="container">
+                    <!-- <figure class="programming-language" id="language-1"> 
+                        <img class="image" src="img/01-python.jpg" alt="Logo do Python">
+                        <section class="text">
+                            <ul>
+                                <li><strong> Nome:</strong> <a href="https://pt.wikipedia.org/wiki/Python">Python</a></li>
+                                <li><strong> Indicado para:</strong> Iniciantes</li>
+                                <li><strong> Dificuldade:</strong> Fácil</li>
+                                <li><strong> Fácil de aprender:</strong> Sim</li>
+                                <li><strong> Usos:</strong> Desenvolvimento web back-end, Aplicações Desktop, Ciência de Dados, Automação, Machine Learning. </li>
+                                <li><strong> Média salarial:</strong> R$ 5.469</li>
+                            </ul>
+                        </section>
+                    </figure> -->
+                <!-- <figure class="programming-language" id="language-2"> 
                     <img class="image" src="img/02-c-sharpe.jpg" alt="Logo do C#">
                     <section class="text">
                         <ul>
@@ -51,8 +51,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 4.624</p></li>
                         </ul>  
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #3 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="languag-3"> 
                     <img class="image" src="img/03-c++.jpg" alt="Logo do C++">
                     <section class="text">
                         <ul>
@@ -64,8 +64,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 7.156</p></li>
                         </ul>  
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #4 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="language-4"> 
                     <img class="image" src="img/04-javascript.jpg" alt="Logo do JavaScript">
                     <section class="text">
                         <ul>
@@ -77,8 +77,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 4.814</p></li>
                         </ul>
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #5 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="language-5"> 
                     <img class="image" src="img/05-php.jpg" alt="Logo do PHP">
                     <section class="text">
                         <ul>
@@ -90,12 +90,12 @@
                             <li><p><strong> Média salarial:</strong> R$ 5.082</p></li>
                         </ul>
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #6 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="language-6"> 
                     <img class="image" src="img/06-swift.jpg" alt="Logo do Swift">
                     <section class="text">
                         <ul>
-                            <li><p><strong> Nome:</strong> <a href="#">Swift</a></p></li>
+                            <li><p><strong> Nome:</strong> <a href="https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o)">Swift</a></p></li>
                             <li><p><strong> Indicado para:</strong> Iniciantes</p></li>
                             <li><p><strong> Dificuldade:</strong> Fácil</p></li>
                             <li><p><strong> Fácil de aprender:</strong> Sim</p></li>
@@ -103,8 +103,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 6.021</p></li>
                         </ul>
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #7 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="language-7"> 
                     <img class="image" src="img/07-java.jpg" alt="Logo do Java">
                     <section class="text">
                         <ul>
@@ -116,8 +116,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 6.000</p></li>
                         </ul>
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #8 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="language-8"> 
                     <img class="image" src="img/08-go.jpg" alt="Logo do Go">
                     <section class="text">
                         <ul>
@@ -129,8 +129,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 4.995</p></li>
                         </ul>
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #9 -->
+                </figure> -->
+                <!-- <figure class="programming-language"  id="language-9"> 
                     <img class="image" src="img/09-sql.jpg" alt="Logo do SQL">
                     <section class="text">
                         <ul>
@@ -142,8 +142,8 @@
                             <li><p><strong> Média salarial:</strong> R$ 5.763</p></li>
                         </ul>
                     </section>
-                </figure>
-                <figure class="programming-language"> <!-- #10 -->
+                </figure> -->
+                <!-- <figure class="programming-language" id="language-10"> 
                     <img class="image" src="img/10-ruby.jpg" alt="Logo do Ruby">
                     <section class="text">
                         <ul>
@@ -155,7 +155,7 @@
                             <li><p><strong> Média salarial:</strong> R$ 5.560</p></li>
                         </ul>
                     </section>
-                </figure>
+                </figure> -->
         </section>
     </main>
 

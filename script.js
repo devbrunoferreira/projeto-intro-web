@@ -180,8 +180,10 @@ const linguagem1 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
-    usos: ['Desenvolvimento web back-end', 'Aplicações Desktop', 'Ciência de Dados', 'Automação', 'Machine Learning'],
-    mediaSalarial: 5469
+    usos: [' Desenvolvimento web back-end', ' Aplicações Desktop', ' Ciência de Dados', ' Automação', ' Machine Learning'],
+    mediaSalarial: 5469,
+    imagem: 'img/01-python.jpg',
+    link: 'https://pt.wikipedia.org/wiki/Python'
 }
 
 const linguagem2 = {
@@ -189,8 +191,10 @@ const linguagem2 = {
     indicadoPara: 'Iniciantes e Intermediários',
     dificuldade: 'Moderada',
     facilDeAprender: true,
-    usos: ['Aplicações web', 'Aplicações móveis', 'Desenvolvimento de jogos', 'Realidade virtual', 'Aplicações Linux e Mac'],
-    mediaSalarial: 4624
+    usos: [' Aplicações web', ' Aplicações móveis', ' Desenvolvimento de jogos', ' Realidade virtual', ' Aplicações Linux e Mac'],
+    mediaSalarial: 4624,
+    imagem: 'img/02-c-sharpe.jpg',
+    link: 'https://pt.wikipedia.org/wiki/C_Sharp'
 }
 
 const linguagem3 = {
@@ -198,8 +202,10 @@ const linguagem3 = {
     indicadoPara: 'Programadores Experientes',
     dificuldade: 'Difícil',
     facilDeAprender: false,
-    usos: ['Desenvolvimento mobile', 'Desenvolvimento de videogames', 'Machine Learning', 'Aplicações Server-side e Client-side', 'Sistemas Operacionais'],
-    mediaSalarial: 7156
+    usos: [' Desenvolvimento mobile', ' Desenvolvimento de videogames', 'Machine Learning', 'Aplicações Server-side e Client-side', 'Sistemas Operacionais'],
+    mediaSalarial: 7156,
+    imagem: 'img/03-c++.jpg',
+    link: 'https://pt.wikipedia.org/wiki/C%2B%2B'
 }
 
 const linguagem4 = {
@@ -207,8 +213,10 @@ const linguagem4 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Relativamente Fácil',
     facilDeAprender: true,
-    usos: ['Desenvolvimento web front-end', 'Desenvolvimento de jogos', 'Aplicações web'],
-    mediaSalarial: 4814
+    usos: [ 'Desenvolvimento web front-end', ' Desenvolvimento de jogos', ' Aplicações web'],
+    mediaSalarial: 4814,
+    imagem: 'img/04-javascript.jpg',
+    link: 'https://pt.wikipedia.org/wiki/JavaScript'
 }
 
 const linguagem5 = {
@@ -216,8 +224,10 @@ const linguagem5 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Bastante Fácil',
     facilDeAprender: true,
-    usos: ['Desenvolvimento web', 'Aplicações Desktop', 'Programas de Computador'],
-    mediaSalarial: 5082
+    usos: [' Desenvolvimento web', ' Aplicações Desktop', ' Programas de Computador'],
+    mediaSalarial: 5082,
+    imagem: 'img/05-php.jpg',
+    link: 'https://pt.wikipedia.org/wiki/PHP'
 }
 
 const linguagem6 = {
@@ -225,8 +235,10 @@ const linguagem6 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
-    usos: ['Desenvolvimento de Software', 'Desenvolvimento macOS e iOS'],
-    mediaSalarial: 6021
+    usos: [' Desenvolvimento de Software', ' Desenvolvimento macOS e iOS'],
+    mediaSalarial: 6021,
+    imagem: 'img/06-swift.jpg',
+    link: 'https://pt.wikipedia.org/wiki/Swift_(linguagem_de_programa%C3%A7%C3%A3o)'
 }
 
 const linguagem7 = {
@@ -234,8 +246,10 @@ const linguagem7 = {
     indicadoPara: 'Iniciantes e Intermediários',
     dificuldade: 'Moderado',
     facilDeAprender: true,
-    usos: ['Desenvolvimento mobile', 'Aplicações Desktop', 'Aplicações Web', 'Desenvolvimento de Jogos', 'Machine Learning', 'Computação Científica'],
-    mediaSalarial: 6000
+    usos: [' Desenvolvimento mobile', ' Aplicações Desktop', ' Aplicações Web', ' Desenvolvimento de Jogos', ' Machine Learning', ' Computação Científica'],
+    mediaSalarial: 6000,
+    imagem: 'img/07-java.jpg',
+    link: 'https://pt.wikipedia.org/wiki/Java_(linguagem_de_programa%C3%A7%C3%A3o)'
 }
 
 const linguagem8 = {
@@ -243,8 +257,10 @@ const linguagem8 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
-    usos: ['Desenvolvimento web back-end', 'Aplicações Web', 'Big Data', 'Machine Learning'],
-    mediaSalarial: 4995
+    usos: [' Desenvolvimento web back-end', ' Aplicações Web', ' Big Data', ' Machine Learning'],
+    mediaSalarial: 4995,
+    imagem: 'img/08-go.jpg',
+    link: 'https://pt.wikipedia.org/wiki/Go_(linguagem_de_programa%C3%A7%C3%A3o)'
 }
 
 const linguagem9 = {
@@ -252,8 +268,10 @@ const linguagem9 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
-    usos: ['Ciência de Dados', 'Gerenciamento de Banco de Dados', 'Business Intelligence'],
-    mediaSalarial: 5763
+    usos: [' Ciência de Dados', ' Gerenciamento de Banco de Dados', ' Business Intelligence'],
+    mediaSalarial: 5763,
+    imagem: 'img/09-sql.jpg',
+    link: 'https://pt.wikipedia.org/wiki/SQL'
 }
 
 const linguagem10 = {
@@ -261,8 +279,10 @@ const linguagem10 = {
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
-    usos: ['Desenvolvimento web front-end', 'Desenvolvimento web back-end'],
-    mediaSalarial: 5560
+    usos: [' Desenvolvimento web front-end', ' Desenvolvimento web back-end'],
+    mediaSalarial: 5560,
+    imagem: 'img/10-ruby.jpg',
+    link: 'https://pt.wikipedia.org/wiki/Ruby_(linguagem_de_programa%C3%A7%C3%A3o)'
 }
 
 let linguagens = [];
@@ -270,6 +290,7 @@ let linguagens = [];
 // linguagens.push(linguagem1, linguagem2, linguagem3, linguagem4, linguagem5, linguagem6, linguagem7, linguagem8, linguagem9, linguagem10);
 
 // ITEM 1
+
 if (linguagem1.facilDeAprender === true) {
     linguagens.push(linguagem1);
 } else {
@@ -339,6 +360,9 @@ if (linguagem10.facilDeAprender === true) {
     alert("Linguagem 10: " + linguagem10.nome + " não adicionada!");
 }
 
+console.log(linguagens);
+console.log("");
+
 // console.log(`Linguagem 1: ${linguagem1.facilDeAprender} (${linguagem1.nome})`);
 // console.log(`Linguagem 2: ${linguagem2.facilDeAprender} (${linguagem2.nome})`);
 // console.log(`Linguagem 3: ${linguagem3.facilDeAprender} (${linguagem3.nome})`);
@@ -361,7 +385,7 @@ if (linguagem10.facilDeAprender === true) {
 // for (const i in linguagens){
 //     for (const property in linguagens[i]){
 //      stringArrays = `${property} : ${linguagens[i][property]}`;
-     
+
 //     console.log(stringArrays);
 //     }
 //     console.log("");
@@ -376,8 +400,20 @@ if (linguagem10.facilDeAprender === true) {
 //     for (const property in objeto){
 //         // console.log(property + " : " + linguagem1[property]);
 //         stringObjeto = `${property} : ${objeto[property]}`;
-    
+
 //         console.log(stringObjeto);
+//     }
+//     console.log("");
+// }
+
+
+// const relatorio = objeto => {
+//     let stringArrays;
+//     for (const property in objeto){
+//         // console.log(property + " : " + linguagem1[property]);
+//         stringArrays = `${property} : ${objeto[property]}`;
+
+//         console.log(stringArrays);
 //     }
 //     console.log("");
 // }
@@ -393,34 +429,102 @@ if (linguagem10.facilDeAprender === true) {
 // relatorio(linguagem9);
 // relatorio(linguagem10);
 
-// const relatorio = objeto => {
-//     let stringArrays;
-//     for (const property in objeto){
-//         // console.log(property + " : " + linguagem1[property]);
-//         stringArrays = `${property} : ${objeto[property]}`;
-    
-//         console.log(stringArrays);
-//     }
-//     console.log("");
+// for (const property in objeto){
+//     // console.log(property + " : " + linguagem1[property]);
+//     stringArrays = `${property} : ${objeto[property]}`;
+
+//     console.log(stringArrays);
 // }
 
-    // for (const property in objeto){
-    //     // console.log(property + " : " + linguagem1[property]);
-    //     stringArrays = `${property} : ${objeto[property]}`;
-    
-    //     console.log(stringArrays);
-    // }
 
 function relatorio2(arrayDeObjetos) {
     let stringRelatorio;
-    for (const i in arrayDeObjetos){
-        for (const property in arrayDeObjetos[i]){
-         stringRelatorio = `${property} : ${arrayDeObjetos[i][property]}`;
-         
-        console.log(stringRelatorio);
+    for (let i in arrayDeObjetos) {
+        for (let property in arrayDeObjetos[i]) {
+            stringRelatorio = `${property} : ${arrayDeObjetos[i][property]}`;
+
+            console.log(stringRelatorio);
         }
         console.log("");
     }
 }
 
 relatorio2(linguagens);
+
+// SEMANA 6.2 - FUNÇÃO RECEBE ARRAY DE OBJETOS E UMA STRING;
+const buscador = (arrayDeObjetos, valorString) => {
+
+    let retornarObjeto = {};
+
+    for (let i in arrayDeObjetos) {
+        if (arrayDeObjetos[i].nome === valorString) {
+            retornarObjeto.nome = arrayDeObjetos[i].nome;
+            retornarObjeto.indicadoPara = arrayDeObjetos[i].indicadoPara;
+            retornarObjeto.dificuldade = arrayDeObjetos[i].dificuldade;
+            retornarObjeto.facilDeAprender = arrayDeObjetos[i].facilDeAprender;
+            retornarObjeto.usos = arrayDeObjetos[i].usos;
+            retornarObjeto.mediaSalarial = arrayDeObjetos[i].mediaSalarial;
+            retornarObjeto.imagem = arrayDeObjetos[i].imagem;
+
+            // retornarObjeto = {...arrayDeObjetos[i]};
+        }
+    }
+
+    if (retornarObjeto.nome !== valorString) {
+        alert('Não encontrei a linguagem!');
+    } else {
+        return retornarObjeto;
+    }
+}
+
+console.log(buscador(linguagens, 'PHP'));
+
+for(let i in linguagens){
+    let container = document.getElementById('container');
+    let figure = document.createElement("figure");
+    let img = document.createElement("img");
+    let section = document.createElement("section");
+    let ul = document.createElement("ul");
+    let li1 = document.createElement("li");
+    let li2 = document.createElement("li");
+    let li3 = document.createElement("li");
+    let li4 = document.createElement("li");
+    let li5 = document.createElement("li");
+    let li6 = document.createElement("li");
+    let a = document.createElement("a");
+
+    figure.setAttribute("class", "programming-language");
+    img.setAttribute("class", "image");
+    section.setAttribute("class", "text");
+    img.src = linguagens[i].imagem;
+    a.setAttribute('href', linguagens[i].link);
+    a.innerHTML = linguagens[i].nome;
+
+    container.appendChild(figure);
+    figure.appendChild(img);
+    figure.appendChild(section);
+    section.appendChild(ul);
+    ul.appendChild(li1);
+    ul.appendChild(li2);
+    ul.appendChild(li3);
+    ul.appendChild(li4);
+    ul.appendChild(li5);
+    ul.appendChild(li6);
+
+    li1.innerHTML = "<strong> Nome: </strong>";
+    li2.innerHTML = "<strong> Indicado para: </strong>";
+    li3.innerHTML = "<strong> Dificuldade: </strong>";
+    li4.innerHTML = "<strong> Fácil de aprender: </strong>";
+    li5.innerHTML = "<strong> Usos: </strong>";
+    li6.innerHTML = "<strong> Média salarial: </strong>";
+
+    li1.appendChild(a);
+
+    li2.innerHTML += linguagens[i].indicadoPara;
+    li3.innerHTML += linguagens[i].dificuldade;
+    li4.innerHTML += linguagens[i].facilDeAprender;
+    li5.innerHTML += linguagens[i].usos;
+    li5.innerHTML += '.';
+    li6.innerHTML += "R$ ";
+    li6.innerHTML += linguagens[i].mediaSalarial;
+}
