@@ -33,7 +33,7 @@ body {
 
 input {
     width: 200px;
-    border: 2px solid rgb(204, 204, 204);
+    border: 2px solid #cccccc;
     border-radius: 4px;
     height: 25px;
 }
@@ -84,18 +84,18 @@ button:hover {
 } */ 
 
 .programming-language {
-    border: 1px solid rgb(202, 201, 201);
+    border: 1px solid #cac9c9;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     width: 250px;
-    background-color: rgb(219, 219, 219);
+    background-color: #dbdbdb;
 }
 
 .programming-language:hover {
-    background-color: rgb(145, 145, 145);
+    background-color: #919191;
     /* border-color: rgb(145, 145, 145); */
-    border: 1.5px solid rgb(104, 103, 103);
+    border: 1.5px solid #686767;
 }
 
 .image {
@@ -111,6 +111,18 @@ button:hover {
 
 li {
     list-style-type: none;
+}
+
+.a-text {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orangered;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.a-text:hover {
+    color: #dfa507;
 }
 
 .footer {
@@ -203,6 +215,6 @@ li {
     }
 } */
 
-/* .hidden {
+.hidden {
     display: none;
-} */
+}
