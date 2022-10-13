@@ -176,7 +176,7 @@
 // console.log(facilDeAprender);
 
 const linguagem1 = {
-    nome: 'Python',
+    nome: 'python',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
@@ -187,7 +187,7 @@ const linguagem1 = {
 }
 
 const linguagem2 = {
-    nome: 'C#',
+    nome: 'c#',
     indicadoPara: 'Iniciantes e Intermediários',
     dificuldade: 'Moderada',
     facilDeAprender: true,
@@ -198,7 +198,7 @@ const linguagem2 = {
 }
 
 const linguagem3 = {
-    nome: 'C++',
+    nome: 'c++',
     indicadoPara: 'Programadores Experientes',
     dificuldade: 'Difícil',
     facilDeAprender: false,
@@ -209,7 +209,7 @@ const linguagem3 = {
 }
 
 const linguagem4 = {
-    nome: 'JavaScript',
+    nome: 'javascript',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Relativamente Fácil',
     facilDeAprender: true,
@@ -220,7 +220,7 @@ const linguagem4 = {
 }
 
 const linguagem5 = {
-    nome: 'PHP',
+    nome: 'php',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Bastante Fácil',
     facilDeAprender: true,
@@ -231,7 +231,7 @@ const linguagem5 = {
 }
 
 const linguagem6 = {
-    nome: 'Swift',
+    nome: 'swift',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
@@ -242,7 +242,7 @@ const linguagem6 = {
 }
 
 const linguagem7 = {
-    nome: 'Java',
+    nome: 'java',
     indicadoPara: 'Iniciantes e Intermediários',
     dificuldade: 'Moderado',
     facilDeAprender: true,
@@ -253,7 +253,7 @@ const linguagem7 = {
 }
 
 const linguagem8 = {
-    nome: 'Go',
+    nome: 'go',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
@@ -264,7 +264,7 @@ const linguagem8 = {
 }
 
 const linguagem9 = {
-    nome: 'SQL',
+    nome: 'sql',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
@@ -275,7 +275,7 @@ const linguagem9 = {
 }
 
 const linguagem10 = {
-    nome: 'Ruby',
+    nome: 'ruby',
     indicadoPara: 'Iniciantes',
     dificuldade: 'Fácil',
     facilDeAprender: true,
@@ -360,8 +360,8 @@ if (linguagem10.facilDeAprender === true) {
     alert("Linguagem 10: " + linguagem10.nome + " não adicionada!");
 }
 
-console.log(linguagens);
-console.log("");
+// console.log(linguagens);
+// console.log("");
 
 // console.log(`Linguagem 1: ${linguagem1.facilDeAprender} (${linguagem1.nome})`);
 // console.log(`Linguagem 2: ${linguagem2.facilDeAprender} (${linguagem2.nome})`);
@@ -449,7 +449,7 @@ function relatorio2(arrayDeObjetos) {
     }
 }
 
-relatorio2(linguagens);
+// relatorio2(linguagens);
 
 // SEMANA 6.2 - FUNÇÃO RECEBE ARRAY DE OBJETOS E UMA STRING;
 const buscador = (arrayDeObjetos, valorString) => {
@@ -466,6 +466,52 @@ const buscador = (arrayDeObjetos, valorString) => {
             retornarObjeto.mediaSalarial = arrayDeObjetos[i].mediaSalarial;
             retornarObjeto.imagem = arrayDeObjetos[i].imagem;
 
+            let main = document.querySelector("main");
+            let container = document.createElement("section");
+            let figure = document.createElement("figure");
+            let img = document.createElement("img");
+            let section = document.createElement("section");
+            let ul = document.createElement("ul");
+            let li1 = document.createElement("li");
+            let li2 = document.createElement("li");
+            let li3 = document.createElement("li");
+            let li4 = document.createElement("li");
+            let li5 = document.createElement("li");
+            let li6 = document.createElement("li");
+            let a = document.createElement("a");
+
+            container.setAttribute("id", "container");
+            container.setAttribute("class", "content");
+
+            figure.setAttribute("class", "programming-language");
+            img.setAttribute("class", "image");
+            section.setAttribute("class", "text");
+            img.src = linguagens[i].imagem;
+            a.setAttribute('href', linguagens[i].link);
+            a.setAttribute("target", "_blank")
+            a.setAttribute("class", "a-text");
+            a.innerHTML = linguagens[i].nome;
+
+            main.appendChild(container);
+            container.appendChild(figure);
+            figure.appendChild(img);
+            figure.appendChild(section);
+            section.appendChild(ul);
+            ul.appendChild(li1);
+            ul.appendChild(li2);
+            ul.appendChild(li3);
+            ul.appendChild(li4);
+            ul.appendChild(li5);
+            ul.appendChild(li6);
+
+            li1.innerHTML = `<strong> Nome: </strong>`;
+            li2.innerHTML = `<strong> Indicado para: </strong> ${arrayDeObjetos[i].indicadoPara}`;
+            li3.innerHTML = `<strong> Dificuldade: </strong> ${arrayDeObjetos[i].dificuldade}`;
+            li4.innerHTML = `<strong> Fácil de aprender: </strong> ${arrayDeObjetos[i].facilDeAprender}`;
+            li5.innerHTML = `<strong> Usos: </strong> ${arrayDeObjetos[i].usos}`;
+            li6.innerHTML = `<strong> Média salarial:</strong> R$ ${arrayDeObjetos[i].mediaSalarial}`;
+
+            li1.appendChild(a);
             // retornarObjeto = {...arrayDeObjetos[i]};
         }
     }
@@ -473,13 +519,15 @@ const buscador = (arrayDeObjetos, valorString) => {
     if (retornarObjeto.nome !== valorString) {
         alert('Não encontrei a linguagem!');
     } else {
-        return retornarObjeto;
+        console.log(retornarObjeto);
     }
 }
 
-console.log(buscador(linguagens, 'PHP'));
+// console.log(buscador(linguagens, 'PHP'));
+// buscador(linguagens, 'php');
 
 for(let i in linguagens){
+
     let container = document.getElementById('container');
     let figure = document.createElement("figure");
     let img = document.createElement("img");
@@ -498,6 +546,8 @@ for(let i in linguagens){
     section.setAttribute("class", "text");
     img.src = linguagens[i].imagem;
     a.setAttribute('href', linguagens[i].link);
+    a.setAttribute("target", "_blank")
+    a.setAttribute("class", "a-text");
     a.innerHTML = linguagens[i].nome;
 
     container.appendChild(figure);
@@ -511,20 +561,26 @@ for(let i in linguagens){
     ul.appendChild(li5);
     ul.appendChild(li6);
 
-    li1.innerHTML = "<strong> Nome: </strong>";
-    li2.innerHTML = "<strong> Indicado para: </strong>";
-    li3.innerHTML = "<strong> Dificuldade: </strong>";
-    li4.innerHTML = "<strong> Fácil de aprender: </strong>";
-    li5.innerHTML = "<strong> Usos: </strong>";
-    li6.innerHTML = "<strong> Média salarial: </strong>";
+    li1.innerHTML = `<strong> Nome: </strong>`;
+    li2.innerHTML = `<strong> Indicado para: </strong> ${linguagens[i].indicadoPara}`;
+    li3.innerHTML = `<strong> Dificuldade: </strong> ${linguagens[i].dificuldade}`;
+    li4.innerHTML = `<strong> Fácil de aprender: </strong> ${linguagens[i].facilDeAprender}`;
+    li5.innerHTML = `<strong> Usos: </strong> ${linguagens[i].usos}`;
+    li6.innerHTML = `<strong> Média salarial:</strong> R$ ${linguagens[i].mediaSalarial}`;
 
     li1.appendChild(a);
+}
 
-    li2.innerHTML += linguagens[i].indicadoPara;
-    li3.innerHTML += linguagens[i].dificuldade;
-    li4.innerHTML += linguagens[i].facilDeAprender;
-    li5.innerHTML += linguagens[i].usos;
-    li5.innerHTML += '.';
-    li6.innerHTML += "R$ ";
-    li6.innerHTML += linguagens[i].mediaSalarial;
+function busca(event) {
+    event.preventDefault();
+    let input = document.getElementById("search").value.toLowerCase();
+    let container = document.querySelector("#container");
+
+    if(input === ""){
+        alert("Linguagem não encontrada");
+    }else {
+        container.remove();
+        console.log(buscador(linguagens, input));
+    }
+    
 }
